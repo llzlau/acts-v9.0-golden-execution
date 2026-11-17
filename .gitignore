@@ -1,0 +1,18 @@
+# Python environment
+__pycache__/
+*.pyc
+*.pyo
+*.pyd.build/
+
+# Keep compiled binary extension
+!*.pyd
+
+# Ignored csv by default, but keep official audited nav curves
+*.csv
+!nav_curve_1000000.csv
+!nav_curve_5000000.csv
+
+*.log
+scratch/
+.idea/
+.vscode/
